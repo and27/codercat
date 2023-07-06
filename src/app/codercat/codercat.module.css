@@ -40,58 +40,6 @@ html[data-theme="light"] .contentCard {
   background-color: #eaeaea7d;
 }
 
-.contentCard h1 {
-  font-size: 40px;
-  margin-block-start: 8px;
-  line-height: 1.2;
-  letter-spacing: -0.5%;
-}
-
-.headingContent {
-  flex: 0 1 45%;
-  font-family: var(--font-montserrat);
-  display: flex;
-  flex-direction: column;
-}
-
-.headingContentInner {
-  position: sticky;
-  top: 40px;
-}
-.category {
-  position: relative;
-  margin-right: 30px;
-}
-
-.category::after {
-  position: absolute;
-  width: 4px;
-  height: 4px;
-  background-color: orange;
-  border-radius: 50px;
-  top: 40%;
-  right: -16px;
-  content: "";
-}
-
-.category,
-.date {
-  margin-block: 8px;
-  display: inline;
-}
-
-.description {
-  flex: 0 1 50%;
-}
-
-.description p {
-  margin-block-end: 20px;
-  line-height: 1.6;
-  font-family: var(--font-montserrat);
-  font-weight: 400;
-  font-size: 0.875rem;
-}
-
 .catImg {
   display: flex;
   justify-content: center;

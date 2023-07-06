@@ -1,6 +1,6 @@
 import client from './contentful';
 
-export async function getContentfulData(
+async function getContentfulData(
   contentType: string,
 ) {
   const entries = await client.getEntries({
@@ -9,5 +9,16 @@ export async function getContentfulData(
 
   return entries.items;
 }
+
+export async function getTipsbyDate(date: string) {
+  const tips =  await client.getEntries({
+    content_type :"tip",
+      'fields.date': date
+  })
+  return tips.items[0];
+}
+
+
+
 
 export default getContentfulData;

@@ -1,0 +1,12 @@
+.description {
+  flex: 0 1 50%;
+  opacity: 0;
+}
+
+.description p {
+  margin-block-end: 20px;
+  line-height: 1.6;
+  font-family: var(--font-montserrat);
+  font-weight: 400;
+  font-size: 0.875rem;
+}
