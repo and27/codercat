@@ -4,7 +4,7 @@ import globalStyles from "../page.module.css";
 import catImg from "../../../public/codercat_acostado.png";
 import { getTipsbyDate } from "@/lib/getDataEntries";
 import { use } from "react";
-import Navigation from "@/components/navigation/navigation";
+import TopBar from "@/components/topBar/topBar";
 import CardHeading from "@/components/cardHeading/CardHeading";
 import CardDescription from "@/components/cardDescription/CardDescription";
 
@@ -18,7 +18,7 @@ const Codercat = () => {
   return (
     <>
       <div className={`${styles.codercatModule}  ${globalStyles.container}`}>
-        <Navigation />
+        <TopBar />
         <div className={styles.catImg}>
           <Image src={catImg} alt="" width={300} height={145} />
         </div>

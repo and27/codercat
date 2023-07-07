@@ -1,7 +1,8 @@
 "use client";
 import { BiSolidMoon } from "react-icons/bi";
-import styles from "./themSwitcher.module.css";
 import { useTheme } from "next-themes";
+import styles from "./themSwitcher.module.css";
+import globalStyles from "../../app/page.module.css";
 
 const ThemeSwitcher = () => {
   const { theme, setTheme } = useTheme();
@@ -9,8 +10,9 @@ const ThemeSwitcher = () => {
     theme === "light" ? setTheme("dark") : setTheme("light");
   };
   return (
-    <button onClick={handleTheme} className={styles.option}>
+    <button onClick={handleTheme} className={styles.option} title={"Theme"}>
       <BiSolidMoon size={16} />
+      <span className={globalStyles.visually_hidden}>Theme Switcher</span>
     </button>
   );
 };
