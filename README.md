@@ -2,7 +2,7 @@
 
 [![Project Status](https://img.shields.io/badge/Project%20Status-Development-yellow)](https://shields.io/)
 
-![Codercat Screenshot](screenshot.png)
+![Codercat Screenshot](public/screenshot.png)
 
 Codercat is a project focused on providing tips, tricks, and "hacks" related to web concepts, with a strong emphasis on accessibility and other interesting web development topics. It's built using Next.js.
 
