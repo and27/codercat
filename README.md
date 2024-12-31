@@ -31,8 +31,9 @@ To run this project locally, follow these steps:
 1.  Clone the repository:
 
     ```bash
-    git clone [https://github.com/and27/codercat](https://github.com/and27/codercat) 
+    git clone 
     ```
+    [https://github.com/and27/codercat](https://github.com/and27/codercat) 
 
 2.  Navigate to the project directory:
 
