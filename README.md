@@ -31,7 +31,7 @@ To run this project locally, follow these steps:
 1.  Clone the repository:
 
     ```bash
-    git clone [https://github.com/tu_usuario/codercat](https://github.com/tu_usuario/codercat) // Reemplaza con la URL real
+    git clone [https://github.com/and27/codercat](https://github.com/and27/codercat) 
     ```
 
 2.  Navigate to the project directory:
@@ -46,7 +46,7 @@ To run this project locally, follow these steps:
     npm install
     ```
 
-## Usage (Uso)
+## Usage 
 
 To start the development server:
 
